@@ -64,3 +64,227 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+body{
+	padding: 5%;
+}
+
+nav {
+	position: sticky;
+	top: 3%;
+	width: 100%;
+	margin: 0% 0% 8% 0%;
+	display: flex;
+	flex-direction: center;
+	justify-content: space-evenly;
+	align-items: center;
+	
+}
+
+nav a {
+	color: lightgrey;
+	margin: 0% 0% 0% 0%;
+	font-size: 12.5px;
+	text-decoration: none;
+}
+
+.logobox {
+	vertical-align: middle;
+	display: flex;
+	margin: 0 0 0 ;
+}
+
+.logo {
+	margin: 0% 0% 10% 0%;
+	padding: 0px 0px 0px 0px;
+	
+}
+
+header {
+	display: flex;
+	align-items: center;
+	margin: 0 0 7% 0;
+
+}
+
+h1 {
+	padding: 0 0 0 0;
+	font-size: 70px;
+	margin: 0;
+	text-align: center;
+}
+
+.box {
+	padding: 10px 0 0 0;
+	display: flex;
+	height: 30%;
+	width: 50%;
+	flex-flow: column;
+	/* border: solid black 1px; */
+	
+}
+
+.circle {
+	margin: 0 0% 0% 8%;
+	width: 35%;
+}
+
+.boxp {
+	width: 30%;
+	margin: 3% 0% 0% 35%;
+	border: solid black 1px;
+	padding: 1% 0% 1% 0;
+	text-align: center;
+}
+
+.middle {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+
+}
+
+.middle img {
+	display: flex;
+	width: 100%;
+	justify-content: space-evenly;
+}
+
+.tophouse {
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.bothouse {
+	display: flex;
+}
+
+.topsec {
+	width: 48%;
+	margin: 3% 1% 3% 1%;
+	display: flex;
+	flex-flow: column;
+
+}
+
+.botsec {
+	width: 35%;
+	margin: 3% 1% 3% 1%;
+	display: flex;
+	flex-flow: column;
+}
+
+address {
+	display: flex;
+	width: 20%;
+	margin: 3% 0% 5% 1%;
+	flex-flow: column;
+
+}
+
+address .number {
+	margin: 8% 0%;
+}
+
+.copyright {
+	text-align: center;
+	margin: 0% 0% 11% 0%;
+}
+
+.head2 {
+	flex-flow: column;
+	width: 100%;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.services-header-img {
+	text-align: center;
+	width: 100%;
+}
+
+.servicescontainer h3 {
+	font-size: 25px;
+}
+
+.servicescontainer {
+	margin-top: 5%;
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+	/* margin-top: 0%; */
+}
+
+.middle2 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
+	align-content: center;
+	border-top: black solid 1px;
+	border-bottom: black solid 1px;
+	height: 60%;
+}
+
+.servicegroup {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	width: 100%;
+
+}
+
+.service h5 {
+	margin-bottom: 3%;
+	margin-top: 2%;
+}
+
+.service {
+	border: 1px solid black;
+	margin: 0 0 0 0;
+	background-color: rgb(231, 252, 255);
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+	width: 48%;
+	height: 90%;
+	/* margin-top: 3%; */
+	padding: 2%;
+}
+
+.learn {
+	border: 1px solid black;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	padding: 2%;
+	text-align: center;
+	border-radius: 5px;
+	width: 30%;
+	font-size: 70%;
+	background-color: white;
+}
+
+.bottom {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-evenly;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.facts {
+	display: flex;
+	flex-flow: column;
+	width: 45%;
+}
+
+.services-info-img {
+	width: 40%;
+}
+
+bl {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-evenly;
+	height: 100%;
+}
+
+@media (max-width: )
